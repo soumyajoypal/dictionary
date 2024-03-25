@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(37, 37, 127);
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(228, 222, 215);
+    letter-spacing: 5px;
+}
+
+.Error {
+    color: red;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    padding-block: 1rem;
+}
+
+.meta-info {
+    margin-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    background-color: azure;
+    padding: 1rem;
+    border: 1px solid rgba(7, 25, 158, 0.241);
+    border-radius: 20px;
+    color: rgb(7, 7, 105);
+}
+
+.meta-info i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.meta-info i:hover {
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+    color: rgba(7, 7, 105, 0.71);
+}
+
+.input-form {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+input {
+    flex: 1;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding: 1rem;
+    border: 1px solid black;
+    border-right: none;
+    outline: none;
+    border-radius: 36px 0 0 36px;
+}
+
+.search-button {
+    padding: 1rem 1.5rem;
+    background-color: rgb(12, 12, 164);
+    cursor: pointer;
+    border: 1px solid black;
+    border-left: none;
+    outline: none;
+    border-radius: 0 36px 36px 0;
+}
+
+.search-button i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.search-button:hover {
+    background-color: rgba(12, 12, 164, 0.778);
+}
+
+.detailsInfo {
+    background-color: rgba(17, 207, 159, 0.214);
+    padding: 1rem;
+    border-radius: 20px;
+    border: 1px solid rgba(7, 25, 158, 0.241);
+}
+
+.detailsInfo ol {
+    list-style: inside;
+    list-style-type: decimal;
+}
+
+.detailsInfo ol li {
+    font-size: 1.5rem;
+    color: rgb(2, 2, 92, 0.748);
+}
+
+h3 {
+    display: inline-block;
+    margin-block: 1rem;
+    font-size: 1.5rem;
+    color: rgba(2, 2, 92, 0.748);
+}
+
+.detailsInfo ol ul {
+    list-style: inside;
+    margin-left: 3rem;
+}
+
+.detailsInfo ol ul li {
+    margin-block: 0.5rem;
+    font-size: 1rem;
+    color: rgba(1, 22, 22, 0.847);
+}
+
+span {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-block: 0.4rem;
+}
+
+h2 {
+    font-size: 2rem;
+
+}
+
+.meta-info p {
+    font-size: 1.2rem;
+}
+
+.exaT {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-block: 1rem;
+}
+
+@media screen and (max-width:500px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2
+    {
+        font-size: 1.4rem;
+    }
+    .meta-info p
+    {
+        font-size: 0.75rem;
+    }
+    .meta-info i
+    {
+        font-size: 1.5rem;
+    }
+    input {
+        letter-spacing: normal;
+        padding: 1rem;
+        font-size: 0.75rem;
+    }
+
+    .search-button {
+        padding: 0.75rem 1rem;
+    }
+}

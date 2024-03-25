@@ -20,7 +20,7 @@ This is a simple dictionary project built using HTML, CSS, and JavaScript. It al
 ## How to Run:
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in your preferred web browser.
-3. Start searching for words and exploring their definitions,phonetics and how the sound!
+3. Start searching for words and exploring their definitions,phonetics and how they sound!
 
 ## Live Demo:
 Check out the live demo [here](https://dictionary-smith.netlify.app/).
